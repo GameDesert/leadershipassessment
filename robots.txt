@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /assets/
+
+User-agent: Googlebot-Image
+Disallow: /assets/
+Disallow: /assets/profile_colour.png
+Disallow: /assets/profile_colour.jpg
+Disallow: /assets/london.jpg
+Disallow: /assets/london_night.jpg
