@@ -553,6 +553,10 @@ footer p.title {
         position: absolute;
         top: 0;
     }
+    
+    .contact-link span {
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 700px) {
