@@ -541,7 +541,6 @@ footer p.title {
     .divider.top {
         position: absolute;
         top: 0;
-        /* Check this. */
     }
 }
 
