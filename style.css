@@ -68,7 +68,7 @@ header {
 
 section {
     overflow: hidden;
-    width: 104vw !important;
+    width: 100%;
     margin-top: -4px !important;
     margin-bottom: -4px !important;
     display:inline-block;
@@ -540,6 +540,9 @@ footer p.title {
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: var(--p-c);
         background-color: color-mix(in srgb, var(--p-c), transparent 50%);
+    }
+    section {
+        width: 104vw !important;
     }
     section p {
         text-align: left;
