@@ -1,0 +1,47 @@
+[data-aos] {
+    opacity: 1 !important;
+    transform: translate3d(0,0,0) !important;
+}
+
+body {
+    background: none !important;
+}
+
+* {
+    color: black !important;
+    background: none !important;
+    box-shadow: none !important;
+
+    flex-direction: column !important;
+}
+
+*:hover {
+    background-color: none !important;
+    transform: none !important;
+}
+
+footer {
+    display: none;
+}
+
+.link {
+    display: none !important;
+}
+
+span.title {
+    display: block !important;
+}
+
+.testimonial {
+    display: block;
+    text-align: center;
+}
+
+svg {
+    display: none;
+}
+
+[hidden], area, base, basefont, datalist, head, link,
+meta, noembed, noframes, param, rp, script, source, style, template, track, title {
+  display: none !important;
+}

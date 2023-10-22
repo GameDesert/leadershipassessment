@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(/assets/fonts/fonts.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
     --p-c: #aca79a;
     --s-c: #82868a;
@@ -11,9 +13,65 @@
     */
 }
 
+body.spaced {
+    letter-spacing: 0.05em !important;
+    word-spacing: 0.1em !important;
+    line-height: 1.25em !important;
+}
+
+@media (prefers-contrast: more) {
+    :root {
+        --p-c: #000 !important;
+        --s-c: #000 !important;
+        --t-c: #1b7b9e !important;
+    }
+
+    body {
+        background: #82868a !important;
+    }
+}
+
+div.accessibility-header {
+    background-color: none;
+    position: absolute;
+    top: 0;
+    right: 4px;
+    z-index: 998;
+}
+
+div.accessibility-header button {
+    width: fit-content;
+    height: fit-content;
+
+    border: none;
+    background-color: color-mix(in srgb, var(--p-c), transparent 50%);
+    border-radius: 0 0 16px 16px;
+    transition: 0.5s;
+
+    box-sizing: content-box;
+}
+
+div.accessibility-header button:hover {
+    cursor: pointer;
+}
+
+div.accessibility-header button:hover, div.accessibility-header button:focus {
+    padding-top: 8px;
+    background-color: color-mix(in srgb, var(--p-c), transparent 0%);
+
+    border: solid var(--t-c) 2px;
+}
+
+div.accessibility-header button svg {
+    width: 24px;
+    height: auto;
+
+    fill: #fff;
+}
+
 .skip-to-content-link {
-    background: #fff;
-    height: 30px;
+    background: #ffffff;
+    height: fit-content;
     width: 128px;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -23,7 +81,10 @@
     transition: transform 0.3s;
     color: var(--t-c);
 
-    z-index: 99999;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+    z-index: 999;
 }
   
 .skip-to-content-link:focus {
@@ -40,7 +101,7 @@ body {
     font-size: 20px;
 
     background-color: var(--s-c);
-    background-image: url(assets/london.jpg);
+    background: url(assets/london.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +109,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-image: url(assets/london_night.jpg);
+        background: url(assets/london_night.jpg);
     }
 }
 
@@ -517,6 +578,8 @@ footer p.title {
 
         box-sizing: content-box;
 
+        width: 104vw;
+
         height: fit-content;
         top: 0%; left: 0%;
         transform: translate(0%,0%);
@@ -552,6 +615,10 @@ footer p.title {
     .divider.top {
         position: absolute;
         top: 0;
+    }
+
+    footer {
+        width: 104vw;
     }
 }
 

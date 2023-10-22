@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Bold'), local('OpenDyslexic-Bold'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Italic'), local('OpenDyslexic-Italic'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Italic.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Bold-Italic'), local('OpenDyslexic-Bold-Italic'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold-Italic.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Bold-Italic'), local('OpenDyslexic-Bold-Italic'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold-Italic.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Bold-Italic'), local('OpenDyslexic-Bold-Italic'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold-Italic.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Bold'), local('OpenDyslexic-Bold'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Bold'), local('OpenDyslexic-Bold'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Italic'), local('OpenDyslexic-Italic'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Italic.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Regular'), local('OpenDyslexic-Regular'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Regular.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Italic'), local('OpenDyslexic-Italic'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Italic.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Regular'), local('OpenDyslexic-Regular'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Regular.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: local('OpenDyslexic Regular'), local('OpenDyslexic-Regular'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Regular.woff2') format('woff2'),
+        url('assets/fonts/opendyslexic/OpenDyslexic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
