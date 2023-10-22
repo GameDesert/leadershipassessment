@@ -616,6 +616,10 @@ footer p.title {
         position: absolute;
         top: 0;
     }
+    
+    .contact-link span {
+        font-size: 0.7em;
+    }
 
     footer {
         width: 104vw;
