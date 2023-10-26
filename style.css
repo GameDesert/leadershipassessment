@@ -110,6 +110,7 @@ body {
 @media (prefers-color-scheme: dark) {
     body {
         background: url(assets/london_night.jpg);
+        background-attachment: fixed;
     }
 }
 
